@@ -1,0 +1,1 @@
+O artigo fala sobre como algoritmos de estimativa de movimento do codificador de vídeo possibilitam explorar o paralelismo. Ele avalia o uso de processadores para acelerar e melhorar o desempenho dos algoritmos de estimativa de movimento. A análise não é só teórica, também é prática e leva em conta alguns métodos e a utilização da plataforma CUDA. 

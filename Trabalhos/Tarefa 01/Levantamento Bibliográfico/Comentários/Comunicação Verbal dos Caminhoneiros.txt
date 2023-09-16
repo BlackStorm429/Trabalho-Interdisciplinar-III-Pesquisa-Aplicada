@@ -1,0 +1,1 @@
+O artigo tem po objetivo identificar o estresse nos motoristas de caminhão através de técnicas de computação afetiva e aprendizado de máquina, utilizando português do Brasil como língua e coletando a comunicação real dos motoristas durante o trabalho.

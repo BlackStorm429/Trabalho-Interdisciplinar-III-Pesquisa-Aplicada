@@ -1,0 +1,1 @@
+O artigo demonstra que p estudo aborda a visualização de inundações, essencial para a compreensão e prevenção de desastres, especialmente em realidade virtual. Eles propõem um método que combina simulações de inundações com imagens panorâmicas, melhorando a eficácia da visualização e experiência do usuário em VR

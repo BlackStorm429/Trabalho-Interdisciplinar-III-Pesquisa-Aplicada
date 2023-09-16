@@ -1,0 +1,1 @@
+O artigo demonstra como construir aplicações de guia eletrônico de programação e que podem ser customizadas em tempo real. O guia pode ser usado independentemente ou também como parte de um aplicativo de televisão digital. A arquitetura é especializada para o sistema brasileiro de tv digital, mas pode ser aplicada para gerar código para diversos tipos de linguagem.

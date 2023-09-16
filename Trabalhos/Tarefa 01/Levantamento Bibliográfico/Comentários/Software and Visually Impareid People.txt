@@ -1,0 +1,6 @@
+O artigo mostra que o estudo mapeou atributos e medidas de acessibilidade de software para pessoas com deficiência visual, destacando que muitas ferramentas de avaliação se concentram em acessibilidade web, mas a avaliação da acessibilidade em software vai além disso, sendo complexa devido a atributos subjetivos e medidas predominantemente voltadas para páginas web
+
+
+
+
+
