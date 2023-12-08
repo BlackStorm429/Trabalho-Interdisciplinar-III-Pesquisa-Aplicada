@@ -1,0 +1,90 @@
+@inproceedings{Provotar:2019,
+  author={Provotar, Oleksandr I. and Linder, Yaroslav M. and Veres, Maksym M.},
+  booktitle={2019 IEEE International Conference on Advanced Trends in Information Theory (ATIT)}, 
+  title={Unsupervised Anomaly Detection in Time Series Using LSTM-Based Autoencoders}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={513-517},
+  doi={10.1109/ATIT49449.2019.9030505}}
+
+@inproceedings{Bursic:2020,
+author="Bursic, Sathya and Cuculo, Vittorio and D'Amelio, Alessandro",
+editor="Sekerinski, Emil and Moreira, Nelma and Oliveira, Jos{\'e} N. and Ratiu, Daniel and Guidotti, Riccardo and Farrell, Marie and Luckcuck, Matt and Marmsoler, Diego and Campos, Jos{\'e} and Astarte, Troy and Gonnord, Laure and Cerone, Antonio and Couto, Luis and Dongol, Brijesh and Kutrib, Martin and Monteiro, Pedro and Delmas, David",
+title="Anomaly Detection from Log Files Using Unsupervised Deep Learning",
+booktitle="Formal Methods. FM 2019 International Workshops",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="200--207",
+abstract="Computer systems have grown in complexity to the point where manual inspection of system behaviour for purposes of malfunction detection have become unfeasible. As these systems output voluminous logs of their activity, machine led analysis of them is a growing need with already several existing solutions. These largely depend on having hand-crafted features, require raw log preprocessing and feature extraction or use supervised learning necessitating having a labeled log dataset not always easily procurable. We propose a two part deep autoencoder model with LSTM units that requires no hand-crafted features, no preprocessing of data as it works on raw text and outputs an anomaly score for each log entry. This anomaly score represents the rarity of a log event both in terms of its content and temporal context. The model was trained and tested on a dataset of HDFS logs containing 2 million raw lines of which half was used for training and half for testing. While this model cannot match the performance of a supervised binary classifier, it could be a useful tool as a coarse filter for manual inspection of log files where a labeled dataset is unavailable.",
+isbn="978-3-030-54994-7"
+}
+
+@article{Max:2018,
+author = {Max Landauer and Markus Wurzenberger and Florian Skopik and Giuseppe Settanni and Peter Filzmoser},
+title = {Dynamic log file analysis: An unsupervised cluster evolution approach for anomaly detection},
+journal = {Computers & Security},
+volume = {79},
+pages = {94-116},
+year = {2018},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2018.08.009},
+url = {https://www.sciencedirect.com/science/article/pii/S0167404818306333},
+keywords = {Log data, Cluster evolution, Anomaly detection, String clustering, Unsupervised learning, Incremental clustering, Time series analysis},
+abstract = {Technological advances and increased interconnectivity have led to a higher risk of previously unknown threats. Cyber Security therefore employs Intrusion Detection Systems that continuously monitor log lines in order to protect systems from such attacks. Existing approaches use string metrics to group similar lines into clusters and detect dissimilar lines as outliers. However, such methods only produce static views on the data and do not sufficiently incorporate the dynamic nature of logs. Changes of the technological infrastructure therefore frequently require cluster reformations. Moreover, such approaches are not suited for detecting anomalies related to frequencies, periodic alterations and interdependencies of log lines. We therefore propose a dynamic log file anomaly detection methodology that incrementally groups log lines within time windows. Thereby, a novel clustering mechanism establishes links between otherwise isolated collections of clusters. Cluster evolution techniques analyze clusters from neighboring time windows and determine transitions such as splits or merges. A self-learning algorithm then detects anomalies in the temporal behavior of these evolving clusters by analyzing metrics derived from their developments. We apply a prototype in an illustrative scenario consisting of a log file containing known anomalies. We thereby investigate the influences of certain parameters on the detection ability and the runtime. The evaluation of this scenario shows that 61.8\% of the dynamic changes of log line clusters are correctly identified, while the false alarm rate is only 0.7\%. The ability of efficiently detecting these anomalies while self-adjusting to changes of the system environment suggests the applicability of the introduced approach.}
+}
+
+@article{Piotr:2021,
+author = {Piotr S. Maciąg and Marzena Kryszkiewicz and Robert Bembenik and Jesus L. Lobo and Javier {Del Ser}},
+title = {Unsupervised Anomaly Detection in Stream Data with Online Evolving Spiking Neural Networks},
+journal = {Neural Networks},
+volume = {139},
+pages = {118-139},
+year = {2021},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2021.02.017},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608021000599},
+keywords = {Evolving Spiking Neural Networks, Outliers detection, Online learning, Time series data, Unsupervised anomaly detection, Stream data},
+abstract = {Unsupervised anomaly discovery in stream data is a research topic with many practical applications. However, in many cases, it is not easy to collect enough training data with labeled anomalies for supervised learning of an anomaly detector in order to deploy it later for identification of real anomalies in streaming data. It is thus important to design anomalies detectors that can correctly detect anomalies without access to labeled training data. Our idea is to adapt the Online evolving Spiking Neural Network (OeSNN) classifier to the anomaly detection task. As a result, we offer an Online evolving Spiking Neural Network for Unsupervised Anomaly Detection algorithm (OeSNN-UAD), which, unlike OeSNN, works in an unsupervised way and does not separate output neurons into disjoint decision classes. OeSNN-UAD uses our proposed new two-step anomaly detection method. Also, we derive new theoretical properties of neuronal model and input layer encoding of OeSNN, which enable more effective and efficient detection of anomalies in our OeSNN-UAD approach. The proposed OeSNN-UAD detector was experimentally compared with state-of-the-art unsupervised and semi-supervised detectors of anomalies in stream data from the Numenta Anomaly Benchmark and Yahoo Anomaly Datasets repositories. Our approach outperforms the other solutions provided in the literature in the case of data streams from the Numenta Anomaly Benchmark repository. Also, in the case of real data files of the Yahoo Anomaly Benchmark repository, OeSNN-UAD outperforms other selected algorithms, whereas in the case of Yahoo Anomaly Benchmark synthetic data files, it provides competitive results to the results recently reported in the literature.}
+}
+
+@inproceedings{Nedelkoski:2020,
+  author={Nedelkoski, Sasho and Bogatinovski, Jasmin and Acker, Alexander and Cardoso, Jorge and Kao, Odej},
+  booktitle={2020 IEEE International Conference on Data Mining (ICDM)}, 
+  title={Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1196-1201},
+  doi={10.1109/ICDM50108.2020.00148}
+}
+
+@article{Zhu:2018,
+  author={Zhu, Yan and Gan, Guohua and Guo, Ruiqi and Huang, Dijiang},
+  journal={IEEE Transactions on Cloud Computing}, 
+  title={PHE: An Efficient Traitor Tracing and Revocation for Encrypted File Syncing-and-Sharing in Cloud}, 
+  year={2018},
+  volume={6},
+  number={4},
+  pages={1110-1124},
+  doi={10.1109/TCC.2016.2573299}
+}
+
+@inproceedings{Xin:2021,
+author = {Xin, Gong and Xixi, Zhao and Haoguang, Xin and Liang, Gu and Yaning, Meng and Xin, Ma and Chenni, Dong and Xiaorong, Duan and Haichuan, Sun and Liguo, Wang},
+title = {An Anomaly Detection Method of Encrypted Traffic Based on User Behavior},
+year = {2021},
+isbn = {9781450390231},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3473714.3473724},
+doi = {10.1145/3473714.3473724},
+abstract = {With the development of enterprises and their gradual growth, their device terminals continue to expand in terms of types, numbers, and application ranges. The form of terminal security protection is becoming increasingly severe, and terminal vulnerabilities and viruses emerge endlessly. A high-quality, efficient, and secure corporate network and terminal environment is an important guarantee for the sound development of enterprises. However, the commonly used monitoring methods of existing equipment terminals, especially the detection methods for encrypted traffic, have been unable to meet the needs of some enterprises for real-time monitoring, rapid identification and timely blocking of high-risk behaviors of terminals. In this paper, an encryption traffic monitoring method for end users is proposed to realize abnormal user traffic detection. Deep neural network model is used to extract communication data features and abnormal traffic features for similarity comparison, so as to judge whether it is abnormal traffic.},
+booktitle = {Proceedings of the 2021 1st International Conference on Control and Intelligent Robotics},
+pages = {51–56},
+numpages = {6},
+keywords = {encrypted traffic, anomaly detection, neural network},
+location = {Guangzhou, China},
+series = {ICCIR '21}
+}
